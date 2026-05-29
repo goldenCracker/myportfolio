@@ -6,11 +6,11 @@ const Footer = (): JSX.Element => {
     <footer className="mx-auto mb-16 flex max-w-3xl flex-col items-center space-y-4 px-8 text-center">
       <Socials small className="mb-8" />
       <p>
-        Made by <Link href={`https://github.com/goldenCracker`}>{process.env.NEXT_PUBLIC_FIRST_NAME || "Carl "} {process.env.NEXT_PUBLIC_LAST_NAME || "Jurkovski"}</Link>
+        Made by <Link href={"https://github.com/goldenCracker"}>{process.env.NEXT_PUBLIC_FIRST_NAME || "Carl "} {process.env.NEXT_PUBLIC_LAST_NAME || "Jurkovski"}</Link>
       </p>
       <p>
         This portfolio is open source and the source code can be found{" "}
-        <Link href={`https://github.com/goldenCracker/myportfolio`}>
+        <Link href={"https://github.com/goldenCracker/myportfolio"}>
           on GitHub
         </Link>
       </p>
