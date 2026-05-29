@@ -39,7 +39,7 @@ const socials: Social[] = [
   {
     id: "github",
     name: "GitHub",
-    url: `https://github.com/goldenCracker`,
+    url: "https://github.com/goldenCracker",
     icon: <GitHubLogo />,
   },
 
