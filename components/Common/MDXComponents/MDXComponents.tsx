@@ -15,7 +15,7 @@ const CodeBlock = props => {
 };
 
 const BlogImage = props => {
-  return <img {...props} className="my-8 rounded-md" />;
+  return <Image {...props} className="my-8 rounded-md" />;
 };
 
 const BlogLink = props => {
