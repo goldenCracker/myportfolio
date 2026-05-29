@@ -1,6 +1,7 @@
 import { MDXComponents } from "mdx/types";
 import Link from "@/components/Shared/Link";
 import { cloneElement, useRef } from "react";
+import Image from "next/image";
 
 const CodeBlock = props => {
   const codeRef = useRef<HTMLElement>(null);
