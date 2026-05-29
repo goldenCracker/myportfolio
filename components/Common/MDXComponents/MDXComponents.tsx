@@ -1,8 +1,6 @@
 import { MDXComponents } from "mdx/types";
 import Link from "@/components/Shared/Link";
 import { cloneElement, useRef } from "react";
-import Image from "next/image";
-
 const CodeBlock = props => {
   const codeRef = useRef<HTMLElement>(null);
 
@@ -16,7 +14,7 @@ const CodeBlock = props => {
 };
 
 const BlogImage = props => {
-  return <Image {...props} className="my-8 rounded-md" />;
+  return <img {...props} alt={props.alt || ""} className="my-8 rounded-md" />;
 };
 
 const BlogLink = props => {
