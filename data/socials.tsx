@@ -39,16 +39,16 @@ const socials: Social[] = [
   {
     id: "github",
     name: "GitHub",
-    url: `https://github.com/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`,
+    url: `https://github.com/goldenCracker`,
     icon: <GitHubLogo />,
   },
 
-  {
-    id: "hashnode",
-    name: "Hashnode",
-    url: `https://hashnode.com/@${process.env.NEXT_PUBLIC_HASHNODE_USERNAME}`,
-    icon: <HashnodeLogo color="#2962ff" />,
-  },
+  // {
+  //   id: "hashnode",
+  //   name: "Hashnode",
+  //   url: `https://hashnode.com/@${process.env.NEXT_PUBLIC_HASHNODE_USERNAME}`,
+  //   icon: <HashnodeLogo color="#2962ff" />,
+  // },
 ];
 
 export default socials;

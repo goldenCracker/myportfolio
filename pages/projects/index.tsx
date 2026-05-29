@@ -42,7 +42,7 @@ const ProjectsPage: NextPage<ProjectsPageProps> = ({
         ))}
       </div>
       <Link
-        href={`https://github.com/stars/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/lists/projects`}
+        href={`https://github.com/stars/goldenCracker/lists/projects`}
         className="group mt-8 flex flex-row items-center justify-start space-x-2 text-xl font-medium"
         noExternalLinkIcon
       >

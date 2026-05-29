@@ -14,7 +14,7 @@ const GuestBookPage: NextPage = () => {
       <div className="mt-16">
         <Giscus
           id={process.env.GISCUS_ID}
-          repo={`${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/portfolio-ai`}
+          repo={`goldenCracker/myportfolio`}
           repoId={process.env.GISCUS_REPOID}
           category={process.env.GISCUS_CATEGORY}
           categoryId={process.env.GISCUS_CATEGORY_ID}
