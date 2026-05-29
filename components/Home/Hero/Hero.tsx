@@ -6,12 +6,9 @@ const Hero = (): JSX.Element => {
   return (
     <div className="flex flex-col-reverse md:flex-row md:justify-between md:space-y-0">
       <div className="mt-8 flex flex-col justify-center space-y-4 md:mt-0 md:w-2/3">
-        {process.env.NEXT_PUBLIC_NAME_SHOW_HEADLINE && (
-          <h1 className="will-change-opacity text-5xl font-bold will-change-transform">
-            {"Carl"}{" "}
-            {"Jurkovski"}
-          </h1>
-        )}
+        <h1 className="will-change-opacity text-5xl font-bold will-change-transform">
+          {"Carl"} {"Jurkovski"}
+        </h1>
         <h2 className="will-change-opacity text-lg font-medium text-gray-300 will-change-transform">
           GenAI Specialist | Backend Engineering | MLOps Engineer | Business
           Automation | Code Agents | Cloud Architect | 9+ years of experience |
@@ -37,8 +34,9 @@ const Hero = (): JSX.Element => {
           <b style={{ color: "skyblue" }}>My core philosophy is:</b> AI should
           not just predict or automate—it should empower decision-making and
           create measurable impact. I am continuously exploring the latest
-          technologies in <b>generative AI, multimodal AI, and edge computing</b>, with
-          a focus on building <b>robust, ethical, and scalable</b> AI solutions. When
+          technologies in{" "}
+          <b>generative AI, multimodal AI, and edge computing</b>, with a focus
+          on building <b>robust, ethical, and scalable</b> AI solutions. When
           I’m not building AI systems, I mentor aspiring technologists,
           contribute to open-source projects, and explore innovative
           applications of AI in creative domains.
